@@ -1,0 +1,146 @@
+body {
+    margin: 1px;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+header {
+    background-color: white;
+}
+
+header a {
+    display: block;
+    border-left: 1px solid #2dcd4d;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 10px;
+}
+
+header a:hover {
+    background-color: #b0cdbc;
+}
+
+header ul {
+    float: right;
+    display: block;
+    margin: 0;
+}
+
+header li {
+    display: inline-block;
+    float: left;
+}
+
+header nav {
+    float: right;
+    background-color: #ffffff;
+    font-size: 20px;
+    display: inline;
+}
+
+header::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    float: bottom;
+    background-color: #2dcd4d;
+    color: white;
+    padding: 10px;
+}
+
+main {
+    float: right;
+    display: inline-block;
+    width: 550px;
+}
+
+article {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px 0px 10px 10px;
+    width: 520px;
+    display: inline-block;
+}
+
+article h1 {
+    color: #2dcd4d;
+    font-size: 26px;
+    margin-top: 0px;
+}
+
+article h2 {
+    font-size: 19px;
+    color: #2dcd4d;
+}
+
+.container {
+    border: 1px solid #2dcd4d;
+    width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+.container header h1 {
+    display: inline;
+    background-color: #ffffff;
+    float: left;
+    margin-top: 0em;
+}
+
+.container .active {
+    color: #2dcd4d;
+}
+
+.container .first {
+    border-left: 0px;
+}
+
+.middle nav {
+    display: inline-block;
+}
+
+.middle a {
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 5px;
+    display: block;
+}
+
+.middle ul {
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin-top: 0px;
+}
+
+.middle li:hover {
+    background-color: #b0cdbc;
+}
+
+.middle li {
+    background-color: #2dcd4d;
+    margin-bottom: 4px;
+    padding: 2px 0px 0px 5px;
+    width: 245px;
+    display: block;
+}
+
+div::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
